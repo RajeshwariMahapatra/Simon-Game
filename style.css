@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+.panel {
+    /* all 4 sectors were arranged in a circle due to inline-block */
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.panel:hover{
+    box-shadow: inset 0px 0px 0px 3px mediumturquoise;
+    box-sizing: border-box;
+}
+.top-left-panel{
+    background-color: yellow;
+    border-top-left-radius: 100%;
+    /* width: 200px;
+    height: 200px; */
+}
+.top-right-panel{
+    background-color: green;
+    border-top-right-radius: 100%;
+    /* width: 200px;
+    height: 200px;
+    top: 200px;
+    right: 400px; */
+}
+.bottom-left-panel{
+    background-color: red;
+    border-bottom-left-radius: 100%;
+    /* width: 200px;
+    height: 200px; */
+}
+.bottom-right-panel{
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+    /* width: 200px;
+    height: 200px; */
+}
+.active{
+    background-color: white;
+}
+.center{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    /* this brings the circle to the center of the page */
+    display: inline-block;
+    position: relative;
+    top: -308px;
+    left: -1px;
+}
