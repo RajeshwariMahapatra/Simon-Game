@@ -1,1 +1,1 @@
-# Simon-Game build using JavaScript
+# Simon-Game built using JavaScript
